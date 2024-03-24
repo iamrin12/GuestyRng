@@ -1,0 +1,30 @@
+GameName = "GUESTY RNG" 
+
+tab1name = "Main" 
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))() 
+
+local GameName = Library:NewWindow(GameName) 
+
+local Tab1 = GameName:NewSection(tab1name) 
+
+Tab1:CreateButton("Grayham 1", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(19.7001667, 244.517044, -89.9148483, -0.987493455, 0.103325479, -0.119081929, 1.03702762e-08, 0.755308747, 0.655369163, 0.157659948, 0.647172749, -0.745862424))
+end) 
+
+Tab1:CreateButton("Grayham 2", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(118.765327, 143.10582, 10.39925, -0.996358871, 0.037090674, -0.0767680034, 3.96346467e-09, 0.900412679, 0.435036808, 0.0852586925, 0.433452785, -0.897134125))
+end) 
+
+Tab1:CreateButton("Grayham 3", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-171.575394, 131.881088, 182.038864, -0.921114802, 0.169139564, -0.350627005, -2.48289407e-08, 0.900680959, 0.434481084, 0.389291018, 0.400206983, -0.829630554))
+end) 
+
+Tab1:CreateButton("Grayham 4", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(20.6045647, 181.69751, -119.48468, -0.873320282, 0.199883148, -0.444250345, 2.70120282e-09, 0.911944151, 0.410314292, 0.487146437, 0.358335823, -0.796419382))
+end) 
+
+Tab1:CreateButton("Grayham 5", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(266.170593, 226.489944, -46.8536148, 0.4222233, -1.98127168e-08, 0.906491876, 4.92436314e-08, 1, -1.08008791e-09, -0.906491876, 4.50949891e-08, 0.4222233))
+end)
+local Tab2 = GameName:NewSection("justrinn")
